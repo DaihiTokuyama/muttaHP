@@ -1,4 +1,4 @@
-@media screen and (max-width:400px){
+@media screen and (max-width:400px) {
 
     li {
         font-size: 20px;
@@ -101,62 +101,61 @@
 
     /*-------------skill---------------------------------
 --------------------------------------------------------*/
-.skillcontent {
-    margin-bottom: 100px;
-    text-align: center;
-    display: block;
-}
+    .skillcontent {
+        margin-bottom: 100px;
+        text-align: center;
+        display: block;
+    }
 
-#skill h3 {
-    font-size: 20px;
-    margin: 20px;
-}
+    #skill h3 {
+        font-size: 20px;
+        margin: 20px;
+    }
 
-#skill p {
-    font-size: 15px;
-    line-height: 2;
-}
+    #skill p {
+        font-size: 15px;
+        line-height: 2;
+    }
 
-.toboe img {
-    width: 50%;
-}
+    .toboe img {
+        width: 50%;
+    }
 
-.toboe-text {
-    margin:0;
-}
+    .toboe-text {
+     margin:0;
+    }
 
-.ass img {
-    width: 70%;
-}
+    .ass img {
+        width: 70%;
+    }
 
-.ass-text {
-    margin:0;
-}
+    .ass-text {
+        margin:0;
+    }
 
-.morning img {
-    width: 50%;
-}
+    .morning img {
+        width: 50%;
+    }
 
-.morning-text {
-    margin:0;
-}
+    .morning-text {
+        margin:0;
+    }
 
-.patroll img {
-    width: 65%;
-}
+    .patroll img {
+        width: 65%;
+    }
 
-.patroll-text {
-    margin:0;
-}
+    .patroll-text {
+        margin:0;
+    }
 
     /*-------------contact---------------------------------
---------------------------------------------------------*/
+    --------------------------------------------------------*/
 
-.contact-wrapper img {
-    width: 100%;
-}
+    .contact-wrapper img {
+        width: 100%;
+    }
 
-.fa-brands {
+   
 
-}
 }
