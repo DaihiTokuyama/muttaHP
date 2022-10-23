@@ -1,17 +1,46 @@
 @media screen and (max-width:400px){
+
     li {
+        font-size: 20px;
+        margin: 0 8px;
+    }
+
+    p {
         font-size: 15px;
     }
 
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    #about , #skill{
+        width: 100%;
+        background-color: antiquewhite;
+        padding: 50px 20px;
+    }
+
     section {
+        width: 90%;
         padding: 0 0 0 0;
         margin: 80px auto 0 auto;
     }
 
     .section-title {
+        text-decoration: underline;
         margin-bottom: 50px;
         font-size: 25px;
     }
+
+    header {
+        padding: 30px;
+    }
+
+        /*-------------top---------------------------------
+--------------------------------------------------------*/
 
     .top-wrapper {
         padding: 50px 0 0 0;
@@ -24,7 +53,110 @@
     }
 
     .top-wrapper img {
-        margin-left: 20px;
+        width: 50%;
+        margin-left: 10px;
     }
 
+        /*-------------about---------------------------------
+--------------------------------------------------------*/
+
+    .profile {
+        display: block;
+        text-align: center;
+    }
+
+    .profile img {
+        width: 50%;
+        border-radius: 100%;
+        margin-bottom: 10px;
+    }
+
+    .profile-text p {
+        line-height: 2;
+    }
+/*-------------favorite---------------------------------
+------------------------------------------------------------------------------------------*/
+    .favorite-container {
+        display: block;
+    }
+
+    .favorite-content {
+        margin-bottom: 100px;
+    }
+
+    .favorite-content h3 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .favorite-container p {
+        font-size: 15px;
+        margin-top: 10px;
+        line-height: 2;
+    }
+
+    .fav2 {
+        margin-right: 0;
+    }
+
+    /*-------------skill---------------------------------
+--------------------------------------------------------*/
+.skillcontent {
+    margin-bottom: 100px;
+    text-align: center;
+    display: block;
+}
+
+#skill h3 {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#skill p {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.toboe img {
+    width: 50%;
+}
+
+.toboe-text {
+    margin:0;
+}
+
+.ass img {
+    width: 70%;
+}
+
+.ass-text {
+    margin:0;
+}
+
+.morning img {
+    width: 50%;
+}
+
+.morning-text {
+    margin:0;
+}
+
+.patroll img {
+    width: 65%;
+}
+
+.patroll-text {
+    margin:0;
+}
+
+    /*-------------contact---------------------------------
+--------------------------------------------------------*/
+
+.contact-wrapper img {
+    width: 100%;
+}
+
+.fa-brands {
+
+}
 }
