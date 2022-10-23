@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 90px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+
+
+a {
+    color: black;
+    opacity: 0.7;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+p {
+    color: rgb(65, 65, 65);
+}
+
+section {
+    padding: 120px 0 0 0;
+    width: 70%;
+    margin: 300px auto 0 auto;
+}
+
+.section-title {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*-------------ヘッダー----------------------
+-----------------------------------------------------------------*/
+
+header {
+    border-bottom: 1px solid rgb(219, 219, 219);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 20px;
+    z-index: 100;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    font-size: 30px;
+}
+
+/*-------------トップimg-----------------------
+----------------------------------------------------------------------------------------------*/
+
+.top-wrapper {
+    width: 70%;
+    padding: 80px 0 0 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+    animation-delay: 0.5s;
+    animation-direction:normal;
+}
+
+@keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+.top-wrapper img {
+    transform: rotate(20deg);
+    border-radius: 200px;
+    width: 40%;
+}
+
+.top-title {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    font-size: 30px;
+}
+
+
+/*-------------About------------------------
+-----------------------------------------------------------------------*/
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile img {
+    width: 30%;
+    border-radius: 100%;
+}
+
+.profile-text {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-text p {
+    line-height: 3;
+}
+
+/*-------------favorite---------------------------------
+------------------------------------------------------------------------------------------*/
+
+.favorite-container {
+    display: flex;
+    justify-content: space-aroun;
+}
+
+.fav1 {
+    text-align: center;
+}
+
+.fav2 {
+    text-align: center;
+    margin-right: 30px;
+}
+
+.favorite-container img {
+    border-radius: 40%;
+}
+
+.fav1 img {
+    width: 50%;
+}
+
+.fav2 img {
+    width: 48%;
+}
+
+.favorite-container p {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.favorite-content h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+/*-------------skill-----------------------
+----------------------------------------------------------------------------------------------------*/
+
+#skill {
+    width: 80%;
+}
+
+#skill img {
+    border-radius: 30%;
+}
+
+.skillcontent {
+    margin-bottom: 160px;
+    display: flex;
+}
+
+.ass , .patroll{
+    flex-direction: row-reverse;
+}
+
+#skill h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#skill p {
+    font-size: 25px;
+}
+
+.toboe img {
+    width: 20%;
+}
+
+.toboe-text {
+    margin: 150px 0 0 70px;
+}
+
+.ass img {
+    width: 30%;
+}
+
+.ass-text {
+    margin: 100px 100px 0 0;
+}
+
+.morning-text {
+    margin: 190px 0 0 130px;
+}
+
+.morning img {
+    width: 25%;
+}
+
+.patroll img {
+    width: 30%;
+}
+
+.patroll-text {
+    margin: 150px 100px 0 0;
+}
+
+/*-------------contact-----------------------
+----------------------------------------------------------------------------------------------------*/
+
+#contact {
+    margin-bottom: 200px;
+}
+
+.contact-wrapper img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.fa-brands {
+    width: 30%;
+}
