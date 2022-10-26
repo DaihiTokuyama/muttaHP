@@ -1,8 +1,11 @@
-@media screen and (max-width:670px) {
+@media screen and (max-width:660px) {
+
+    .back {
+        display: none;
+    }
 
     li {
-        font-size: 20px;
-        margin: 0 8px;
+        font-size: 12px;
     }
 
     p {
@@ -24,7 +27,7 @@
     }
 
     section {
-        width: 90%;
+        width: 100%;
         padding: 0 0 0 0;
         margin: 80px auto 0 auto;
     }
@@ -43,18 +46,24 @@
 --------------------------------------------------------*/
 
     .top-wrapper {
-        padding: 50px 0 0 0;
-        width: 90%;
+        background-color: white;
+        width: 100%;
     }
 
     .top-title {
-        font-size: 20px;
-        margin-left: 40px;
+        border-radius: 0;
+        height: 0px;
+        padding: 0;
+        font-size: 14px;
+        margin:170px 0px 0px 30px;
     }
 
     .top-wrapper img {
+        transform: rotate(35deg);
+        border-radius: 50%;
         width: 50%;
-        margin-left: 10px;
+        object-fit: cover;
+        margin: 0px 0 100px 35px;
     }
 
         /*-------------about---------------------------------
@@ -102,9 +111,15 @@
     /*-------------skill---------------------------------
 --------------------------------------------------------*/
     .skillcontent {
+        width: 100%;
+        border-radius: 50%;
         margin-bottom: 100px;
         text-align: center;
         display: block;
+    }
+
+    #skill img {
+        padding: 0;
     }
 
     #skill h3 {
@@ -113,41 +128,61 @@
     }
 
     #skill p {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 2;
     }
 
     .toboe img {
+        margin-top: 40px;
         width: 50%;
+    }
+
+    .ass img {
+        margin-top: 60px;
+        width: 70%;
+    }
+
+    .morning img {
+        margin-top: 20px;
+        width: 53%;
+    }
+
+    .patroll img {
+        margin-top: 40px;
     }
 
     .toboe-text {
      margin:0;
     }
 
-    .ass img {
-        width: 70%;
-    }
-
     .ass-text {
         margin:0;
-    }
-
-    .morning img {
-        width: 50%;
     }
 
     .morning-text {
         margin:0;
     }
 
-    .patroll img {
-        width: 65%;
-    }
-
     .patroll-text {
         margin:0;
     }
+
+    /*-------------faq---------------------------------
+    --------------------------------------------------------*/
+
+      .faq-wrapper h2 {
+        margin: 80px 0;
+        font-size: 40px;
+        color: black;
+      }
+
+      .faq-list-item span {
+        display: none;
+      }
+
+      .faq-img {
+        width: 100%;
+      }
 
     /*-------------contact---------------------------------
     --------------------------------------------------------*/
