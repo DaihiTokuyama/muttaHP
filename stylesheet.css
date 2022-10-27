@@ -53,7 +53,7 @@ main {
     text-decoration: none;
 }
 
-.back {
+.body-back {
     z-index: -5;
     opacity: 0.1;
     position: fixed;
@@ -68,7 +68,7 @@ main {
     display: none;
 }
 
-a {
+header a {
     text-decoration: none;
     color: black;
     opacity: 0.7;
@@ -118,6 +118,7 @@ nav {
 }
 
 li {
+    list-style: none;
     font-size: 33px;
 }
 
@@ -318,6 +319,77 @@ li {
 
 .patroll-text {
     margin: 100px 0 0 130px;
+}
+
+/* ----------album---------- */
+
+#album {
+    width: 90%;
+}
+
+#album ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#album li {  
+    border-radius: 5%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 30%;
+    height: 550px;
+}
+
+
+.mutaopen {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.pu-opne {
+    width: 100%;
+    height: 450px;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.back1 , .back4,.back7,.back10,.back11 {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.back2 ,.back3,.back5 ,.back6 
+,.back8 ,.back9,.back12{
+    margin: 50px 0 0 90px;
+    width: 67%;
+}
+
+
+#album img {
+    box-shadow: 10px 10px 10px rgb(166, 161, 143);
+    border-radius: 10%;
+    border: 5px solid rgb(255, 255, 255);
+    backface-visibility:hidden;
+    -webkit-backface-visibility: hidden;
+    transition: all ease 1s;
+}
+
+li:hover .front {
+    transform: rotateY(180deg); 
+}
+
+li:hover .back {
+    transform: rotateY(0);scale: 1.2;
 }
 
 /*-------------faq-----------------------
