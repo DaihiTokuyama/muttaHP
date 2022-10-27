@@ -1,10 +1,10 @@
 @media screen and (max-width:660px) {
 
-    .back {
+    .body-back {
         display: none;
     }
 
-    li {
+    .pc-menu li{
         font-size: 12px;
     }
 
@@ -41,6 +41,7 @@
     header {
         padding: 30px;
     }
+
 
         /*-------------top---------------------------------
 --------------------------------------------------------*/
@@ -166,6 +167,34 @@
     .patroll-text {
         margin:0;
     }
+
+    /* album----------------- */
+
+    #album li {
+        width: 100%;
+    }
+
+    .mutaopen {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .pu-opne {
+        width: 100%;
+        height: 277px;
+    }
+
+    .back1 , .back4,.back7,.back10,.back11 {
+        margin: 100px 0 0 20px;
+        width: 90%;
+    }
+
+    .back2 ,.back3,.back5 ,.back6 
+,.back8 ,.back9,.back12{
+    margin: 50px 0 0 20px;
+    width: 90%;
+}
+
 
     /*-------------faq---------------------------------
     --------------------------------------------------------*/
